@@ -243,10 +243,10 @@
         </div>
         <div class="g-bawah">
             <div class="g-card">
-                <img class="g-img" src="g_1.jpg" alt="">
+                <img class="g-img" src="g_1.JPG" alt="">
             </div>
             <div class="g-card">
-                <img class="g-img" src="g_2.jpg" alt="">
+                <img class="g-img" src="g_2.JPG" alt="">
             </div>
             <div class="g-card">
                 <img class="g-img" src="g_3.jpg" alt="">
