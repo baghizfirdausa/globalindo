@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="./index.css">
     <link rel="icon" href="logo_header.png" type="image/icon type">
     <title>Globalindo Cloves</title>
 
@@ -17,12 +17,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Montserrat:wght@400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
 
-    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+    <script src="./index.js"></script>
 </head>
 <body>
-    
-    <script src="gallery.js "></script>
-    <script src="index.js"></script>
     <div class="wa-block">
         <a href="http://wa.me/6282231412550" target="_blank">
             <div class="wa-border">
@@ -35,39 +32,39 @@
     <!-- Nav -->
     <nav class="nav">
         <div class="nav-left">
-            <a href="#h">
+            <a href="#home">
                 <img class="nav-logo" src="logo.png" alt="">
             </a>
         </div>
         <div class="nav-right">
             <ul>
                 <li>
-                    <a class ='t-mont nav-li' href="#h">Home</a>
+                    <a class ='t-mont nav-li' href="#home">Home</a>
                 </li>
                 <li>
-                    <a class ='t-mont nav-li' href="#a">About</a>
+                    <a class ='t-mont nav-li' href="#about">About</a>
                 </li>
                 <li>
-                    <a class ='t-mont nav-li' href="#f">Feature</a>
+                    <a class ='t-mont nav-li' href="#feature">Feature</a>
                 </li>
                 <li>
-                    <a class ='t-mont nav-li' href="#p">Product</a>
+                    <a class ='t-mont nav-li' href="#product">Product</a>
                 </li>
                 <li>
-                    <a class ='t-mont nav-li' href="#t">Team</a>
+                    <a class ='t-mont nav-li' href="#team">Team</a>
                 </li>
                 <li>
-                    <a class ='t-mont nav-li' href="#g">Gallery</a>
+                    <a class ='t-mont nav-li' href="#gallery">Gallery</a>
                 </li>
                 <li>
-                    <a class ='t-mont nav-li' href="#footer">Contact</a>
+                    <a class ='t-mont nav-li' href="#foot">Contact</a>
                 </li>
             </ul>
         </div>
     </nav>
 
     <!-- Header -->
-    <div class="h" id="h">
+    <div class="h" id="home">
         <div class="h-left">
             <div>
                 <h1 class="t-robo">Globalindo Cloves</h1>
@@ -82,7 +79,7 @@
     </div>
 
     <!-- About -->
-    <div class="a" id="a">
+    <div class="a" id="about">
         <div class="a-right">
             <img src="ab_2.PNG" alt="">
         </div>
@@ -96,7 +93,7 @@
     </div>
 
     <!-- Feature -->
-    <div class="f" id="f">
+    <div class="f" id="feature">
         <div>
             <h3 class="t-mont f-tit">Our Key Feature</h3>
         </div>
@@ -155,8 +152,8 @@
     </div>
 
     <!-- Product -->
-    <div class="p" id="p">
-        <div class="">
+    <div class="p" id="product">
+        <div class="p-tit-wrap">
             <h3 class="t-mont t-tit">Our Product</h3>
         </div>
         <div class="p-bawah">
@@ -173,7 +170,7 @@
     </div>
 
     <!-- Team -->
-    <div class="t" id="t">
+    <div class="t" id="team">
         <div>
             <div class="t-ti">
                 <h3 class="t-mont">Meet Our Team</h3>
@@ -197,7 +194,7 @@
                                 </a>
                             </div>
                             <div class="t-ig">
-                                <a href="https://www.instagram.com/thoriq_jj/" target="_blank">
+                                <a href="https://id.linkedin.com/in/thoriq-jatmiko-5a8310227" target="_blank">
                                     <span>
                                         <i class="fa-brands fa-linkedin-in fa-lg"></i>
                                     </span>
@@ -224,7 +221,7 @@
                                 </a>
                             </div>
                             <div class="t-ig">
-                                <a href="https://www.instagram.com/thoriq_jj/" target="_blank">
+                                <a href="https://www.linkedin.com/in/bagas-j-7721b4121/" target="_blank">
                                     <span>
                                         <i class="fa-brands fa-linkedin-in fa-lg"></i>
                                     </span>
@@ -238,33 +235,33 @@
     </div>
 
     <!-- Gallery -->
-    <div class="g" id="g">
+    <div class="g" id="gallery">
         <div>
             <h3 class="t-mont">Gallery</h3>
         </div>
         <div class="g-bawah">
             <div class="g-card">
-                <img class="g-img" src="g_1.JPG" alt="">
+                <img id="g-1" class="g-img" src="g_1.JPG" alt="gambar 1" onclick="modalOn('g-1')">
             </div>
             <div class="g-card">
-                <img class="g-img" src="g_2.JPG" alt="">
+                <img id="g-2" class="g-img" src="g_2.JPG" alt="gambar 2" onclick="modalOn('g-2')">
             </div>
             <div class="g-card">
-                <img class="g-img" src="g_3.jpg" alt="">
+                <img id="g-3" class="g-img" src="g_3.jpg" alt="gambar 3" onclick="modalOn('g-3')">
             </div>
             <div class="g-card">
-                <img class="g-img" src="g_4.jpg" alt="">
+                <img id="g-4" class="g-img" src="g_4.jpg" alt="gambar 4" onclick="modalOn('g-4')">
             </div>
         </div>
-        <div id="myModal" class="modal">
-            <span class="close">&times;</span>
+        <div id="myModal" class="modal" onclick="modalOff()">
+            <div id="close" onclick="modalOff()">&times;</div>
             <img class="modal-content" id="img01">
             <div id="caption"></div>
         </div>
     </div>
 
     <!-- Footer -->
-    <footer id="footer">
+    <footer id="foot">
         <div class="foot-atas">
             <div class="foot-kiri foot-card">
                 <div>
@@ -287,18 +284,18 @@
                         <li>
                             <span>
                                 <i class="fa-solid fa-envelope fa-lg"></i>
-                                <p class="t-mont">mail@ex.com</p>
+                                <p class="t-mont">info@globalindocloves.com</p>
                             </span>
                         </li>
                     </ul>
                 </div>
             </div>
             <div class="foot-tengah foot-card">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d987.9329049315281!2d112.59110142918881!3d-7.9230761996432815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e78818a7541e6e5%3A0x234f736f4be7409a!2sJetis%2C%20Mulyoagung%2C%20Dau%2C%20Malang%20Regency%2C%20East%20Java%2065151!5e0!3m2!1sen!2sid!4v1646399661936!5m2!1sen!2sid" width="550" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d987.9329049315281!2d112.59110142918881!3d-7.9230761996432815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e78818a7541e6e5%3A0x234f736f4be7409a!2sJetis%2C%20Mulyoagung%2C%20Dau%2C%20Malang%20Regency%2C%20East%20Java%2065151!5e0!3m2!1sen!2sid!4v1646399661936!5m2!1sen!2sid" width="450" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
             <div class="foot-kanan foot-card">
                 <div>
-                    <h6 class="t-mont">Follow Us</h6>
+                    <h6 class="t-mont">Globalindo Cloves is one of Indonesian agriculture product company. We cooperate with PT Jawa Agro Sukses (Ltd.) in order to support our business. Along with passionate and eagerness, we attend to grow accordingly with our partners.<br><br>We update all of the company information through social media. For latest information, follow our social media.</h6>
                     <!-- <ul class="foot-sm">
                         <li>
                             <a href="">
@@ -325,9 +322,9 @@
                 </div>
             </div>
         </div>
-        <div class="foot-bawah">
+        <!-- <div class="foot-bawah">
             <p>Copyright © 2022 Globalindo Cloves. All Rights Reserved.</p>
-        </div>
+        </div> -->
     </footer>
 </body>
 </html>

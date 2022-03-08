@@ -1,19 +1,14 @@
-var fixmeTop = $('.wa-block').offset().top;       // get initial position of the element
+function modalOff() {
+    var modal = document.getElementById('myModal');
+    modal.style.display = "none";
+}
 
-$(window).scroll(function() {                  // assign scroll event listener
-
-    var currentScroll = $(window).scrollTop(); // get current position
-
-    if (currentScroll >= fixmeTop) {           // apply position: fixed if you
-        $('.wa-block').css({                      // scroll to that element or below it
-            position: 'fixed',
-            top: '0',
-            left: '0'
-        });
-    } else {                                   // apply position: static
-        $('.wa-block').css({                      // if you scroll above it
-            position: 'static'
-        });
-    }
-
-});
+function modalOn(img) {
+    var img = document.getElementById(img);
+    var modal = document.getElementById('myModal');
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    modal.style.display = "block";
+    modalImg.src = img.src;
+    captionText.innerHTML = img.alt;
+}
