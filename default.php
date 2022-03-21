@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" media="" href="default_1_1.css">
+    <link rel="stylesheet" media="screen and (max-width: 1060px)" href="semi-small_1.css">
+    <link rel="stylesheet" media="screen and (max-width: 825px)" href="small_1.css">
+    <link rel="stylesheet" media="screen and (max-width: 775px)" href="super-smalls_1.css">
     <link rel="icon" href="logo_header.png" type="image/icon type">
     <title>Globalindo Cloves</title>
 
@@ -17,7 +20,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Montserrat:wght@400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
 
-    <script src="index.js"></script>
+    <script src="defaults.js"></script>
 </head>
 <body>
     <div class="wa-block">
@@ -60,8 +63,40 @@
                     <a class ='t-mont nav-li' href="#foot">Contact</a>
                 </li>
             </ul>
+            <a href="javascript:void(0);" class="icon-op" id="icon-op" onclick="openMenu()">
+                <i class="fa fa-bars fa-xl" id="op-btn"></i>
+            </a>
+            <a href="javascript:void(0);" class="icon-cls" id="icon-cls" onclick="closeMenu()">
+                <i class="fa-solid fa-xmark fa-xl" id="cls-btn"></i>
+            </a>
         </div>
     </nav>
+
+    <div class="sub-nav" id="sub">
+        <ul>
+                <li>
+                    <a class ='t-mont nav-li' href="#home" onclick="closeMenu()">Home</a>
+                </li>
+                <li>
+                    <a class ='t-mont nav-li' href="#about" onclick="closeMenu()">About</a>
+                </li>
+                <li>
+                    <a class ='t-mont nav-li' href="#feature" onclick="closeMenu()">Feature</a>
+                </li>
+                <li>
+                    <a class ='t-mont nav-li' href="#product" onclick="closeMenu()">Product</a>
+                </li>
+                <li>
+                    <a class ='t-mont nav-li' href="#team" onclick="closeMenu()">Team</a>
+                </li>
+                <li>
+                    <a class ='t-mont nav-li' href="#gallery" onclick="closeMenu()">Gallery</a>
+                </li>
+                <li>
+                    <a class ='t-mont nav-li' href="#foot" onclick="closeMenu()">Contact</a>
+                </li>
+        </ul>
+    </div>
 
     <!-- Header -->
     <div class="h" id="home">
@@ -241,16 +276,16 @@
         </div>
         <div class="g-bawah">
             <div class="g-card">
-                <img id="g-1" class="g-img" src="g_1.JPG" alt="gambar 1" onclick="modalOn('g-1')">
+                <img id="g-1" class="g-img" src="g_1_1.png" alt="gambar 1" onclick="modalOn('g-1')">
             </div>
             <div class="g-card">
-                <img id="g-2" class="g-img" src="g_2.JPG" alt="gambar 2" onclick="modalOn('g-2')">
+                <img id="g-2" class="g-img" src="g_2_1.png" alt="gambar 2" onclick="modalOn('g-2')">
             </div>
             <div class="g-card">
-                <img id="g-3" class="g-img" src="g_3.jpg" alt="gambar 3" onclick="modalOn('g-3')">
+                <img id="g-3" class="g-img" src="g_3_1.png" alt="gambar 3" onclick="modalOn('g-3')">
             </div>
             <div class="g-card">
-                <img id="g-4" class="g-img" src="g_4.jpg" alt="gambar 4" onclick="modalOn('g-4')">
+                <img id="g-4" class="g-img" src="g_4_1.png" alt="gambar 4" onclick="modalOn('g-4')">
             </div>
         </div>
         <div id="myModal" class="modal" onclick="modalOff()">
@@ -284,41 +319,18 @@
                         <li>
                             <span>
                                 <i class="fa-solid fa-envelope fa-lg"></i>
-                                <p class="t-mont">info@globalindocloves.com</p>
+                                <a class="t-mont" href="mailto:info@globalindocloves.com">info@globalindocloves.com</a>
                             </span>
                         </li>
                     </ul>
                 </div>
             </div>
             <div class="foot-tengah foot-card">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d987.9329049315281!2d112.59110142918881!3d-7.9230761996432815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e78818a7541e6e5%3A0x234f736f4be7409a!2sJetis%2C%20Mulyoagung%2C%20Dau%2C%20Malang%20Regency%2C%20East%20Java%2065151!5e0!3m2!1sen!2sid!4v1646399661936!5m2!1sen!2sid" width="450" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3951.7308787469756!2d112.58965091468815!3d-7.9231533942926164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e78832a6b96555f%3A0x6916fe5f0d22676d!2sGlobalindo%20Cloves!5e0!3m2!1sen!2sid!4v1646847653330!5m2!1sen!2sid" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
             <div class="foot-kanan foot-card">
                 <div>
                     <h6 class="t-mont">Globalindo Cloves is one of Indonesian agriculture product company. We cooperate with PT Jawa Agro Sukses (Ltd.) in order to support our business. Along with passionate and eagerness, we attend to grow accordingly with our partners.<br><br>We update all of the company information through social media. For latest information, follow our social media.</h6>
-                    <!-- <ul class="foot-sm">
-                        <li>
-                            <a href="">
-                                <span>
-                                    <i class="fa-brands fa-facebook fa-xl"></i>
-                                </span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <span>
-                                    <i class="fa-brands fa-instagram fa-xl"></i>
-                                </span>
-                            </a>
-                        </li>
-                        <li class="ft-li-rg">
-                            <a href="">
-                                <span>
-                                    <i class="fa-brands fa-youtube fa-xl"></i>
-                                </span>
-                            </a>
-                        </li>
-                    </ul> -->
                 </div>
             </div>
         </div>

@@ -1,0 +1,94 @@
+nav .nav-right ul li {
+    margin: 0 8px;
+  }
+  nav .nav-left .nav-logo {
+    width: 10rem;
+    margin-left: 75px;
+  }
+  nav .nav-right ul {
+    margin-right: 0;
+  }
+
+.h {
+    height: 600px;
+}
+.h .h-left {
+    padding: 0 75px;
+}
+.h .h-left h1 {
+    font-size: 2.5rem;
+}
+.h div .h-sub {
+    font-size: 2.25em;
+    color: #8A2E03;
+  }
+.h .nav-img {
+    width: 300px;
+}
+
+.a {
+    height: 600px;
+}
+.a .a-left {
+    width: 350px;
+}
+.a .a-left div h1 {
+    font-size: 2rem;
+}
+.a .a-left div p {
+  font-size: 1.25rem;
+}
+
+.f div .f-tit {
+    font-size: 2rem;
+}
+.f .f-sp-card .card {
+    width: 350px;
+}
+.f .f-sp-card .card .f-con h6 {
+    font-size: 1.35em;
+}
+.f .f-sp-card .card .f-con p {
+    font-size: 1.25em;
+    line-height: 25px;
+    letter-spacing: 1px;
+  }
+
+.p div h3 {
+    font-size: 2em;
+  }
+  .p div .p-kiri .p-con h6 {
+    font-size: 2em;
+  }
+  .p div .p-kiri .p-con p {
+    font-size: 1.25em;
+  }
+  .t {
+    height: 600px;
+    padding-top: 80px;
+  }
+  .t .t-ti h3 {
+    font-size: 2rem;
+  }
+  .t .t-bawah .t-card {
+    margin: 40px 40px;
+  }
+  .g h3 {
+    font-size: 2em;
+  }
+
+  footer .foot-atas .foot-kiri ul li span p {
+    font-size: 0.75rem;
+  }
+  footer .foot-atas .foot-tengah iframe{
+    width: 300px;
+    height: 175px;
+  }
+  footer .foot-atas .foot-kanan h6 {
+    font-size: 0.75em;
+    margin: 0;
+  }
+
+  footer .foot-atas .foot-kiri {
+    width: 35%;
+  }

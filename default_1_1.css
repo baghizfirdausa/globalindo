@@ -39,8 +39,11 @@ nav {
   top: 0;
   z-index: 3;
 }
+nav .nav-left {
+  width: 30%;
+}
 nav .nav-left .nav-logo {
-  width: 200px;
+  width: 10rem;
   margin-left: 100px;
 }
 nav .nav-right ul {
@@ -59,15 +62,23 @@ nav .nav-right ul li a {
 nav .nav-right ul li a:hover {
   font-size: 1.25em;
 }
+nav .icon-op, nav .icon-cls {
+  display: none;
+}
+
+.sub-nav {
+  display: none;
+}
 
 .h {
   display: flex;
   flex-direction: row;
   align-items: center;
   height: 700px;
+  flex-wrap: wrap;
 }
 .h .h-left {
-  width: 100%;
+  width: 45%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -79,7 +90,7 @@ nav .nav-right ul li a:hover {
   color: #313131;
 }
 .h .h-right {
-  width: 100%;
+  width: 35%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -338,7 +349,7 @@ nav .nav-right ul li a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 700px;
+  height: 800px;
 }
 .g h3 {
   font-size: 2.25em;
@@ -442,6 +453,7 @@ footer {
   align-items: center;
   /* margin-top: 5rem; */
   background-color: #8A2E03;
+  flex-wrap: wrap;
 }
 footer .foot-atas {
   display: flex;
@@ -464,6 +476,9 @@ footer .foot-atas .foot-kiri ul {
   margin: 0;
   padding: 0;
 }
+footer .foot-atas .foot-kiri li {
+  margin: 15px;
+}
 footer .foot-atas .foot-kiri ul li span {
   display: flex;
   flex-direction: row;
@@ -473,8 +488,16 @@ footer .foot-atas .foot-kiri ul li span {
 }
 footer .foot-atas .foot-kiri ul li span p {
   margin-left: 15px;
-  font-size: 1rem;
+  font-size: 0.85rem;
   color: white;
+}
+footer .foot-atas .foot-kiri ul li span a {
+  margin: 12px 0 12px 15px;
+  font-size: 0.85rem;
+  color: white;
+}
+footer .foot-atas .foot-kiri ul li span a:hover {
+  color: #313131;
 }
 footer .foot-atas .foot-kiri ul li span i {
   color: white;
@@ -487,9 +510,10 @@ footer .foot-atas .foot-tengah {
   text-align: left;
   /* padding-left: 60px; */
 }
-/* footer .foot-atas .foot-tengah iframe{
-  margin-top: 5rem;
-} */
+footer .foot-atas .foot-tengah iframe{
+  width: 425px;
+  height: 275px;
+}
 footer .foot-atas .foot-kanan {
   display: flex;
   flex-direction: column;
@@ -503,22 +527,6 @@ footer .foot-atas .foot-kanan h6 {
   font-size: 1em;
   font-weight: 100;
   margin: 15px 0;
-}
-footer .foot-atas .foot-kanan .foot-sm {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-footer .foot-atas .foot-kanan .foot-sm li {
-  margin: 1rem;
-}
-footer .foot-atas .foot-kanan .foot-sm .ft-li-rg {
-  margin: 0;
-  margin-left: 1rem;
-}
-footer .foot-atas .foot-kanan .foot-sm li a {
-  color: black;
 }
 .wa-block {
   display: flex;

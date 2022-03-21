@@ -1,0 +1,88 @@
+nav .nav-left .nav-logo {
+  margin-left: 25px;
+}
+
+.h {
+    height: 100%;
+}
+.h .h-left {
+    width: 100%;
+    padding: 25px;
+  }
+  .h .h-right {
+    width: 100%;
+  }
+  .h .nav-img {
+    width: 350px;
+  }
+
+  .a {
+      height: 100%;
+      padding: 2rem;
+  }
+  .a .a-left {
+    width: 100%;
+    align-items: center;
+    padding-top: 3rem;
+  }
+  .a .a-right {
+    width: 100%;
+    align-items: center;
+  }
+  .a .a-right img {
+    width: 300px;
+    height: 470px;
+  }
+  .f {
+    height: 100%;
+    padding: 0 2rem;
+  }
+
+  .p {
+      height: 100%;
+      padding: 0 2rem;
+  }
+  .t {
+      height: 100%;
+      padding: 0 2rem;
+      margin-top: 5rem;
+  }
+  .g {
+      height: 100%;
+      padding: 0 2rem;
+  }
+  footer {
+      height: 100%;
+      margin-top: 5rem;
+      padding-top: 5rem;
+      padding-bottom: 3rem;
+  }
+  footer .foot-atas {
+    width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  }
+  footer .foot-atas .foot-kiri {
+    width: 100%;
+    padding-left: 2rem;
+  }
+  footer .foot-atas .foot-tengah {
+    width: 100%;
+    margin: 3rem 0;
+  }
+  footer .foot-atas .foot-tengah iframe{
+    width: 350px;
+    height: 275px;
+  }
+  footer .foot-atas .foot-kanan {
+    width: 100%;
+    padding: 0 2rem;
+  }
+  footer .foot-atas .foot-kiri ul li span p {
+    font-size: 0.85rem;
+  }
+  footer .foot-atas .foot-kanan h6 {
+    font-size: 0.95em;
+    font-weight: 0;
+  }
